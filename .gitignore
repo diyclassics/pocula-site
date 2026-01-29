@@ -1,0 +1,15 @@
+# Claude Code local configuration
+.claude/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Ruby
+Gemfile.lock
+
+# macOS
+.DS_Store

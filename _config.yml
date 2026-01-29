@@ -1,0 +1,108 @@
+###########################################################
+### Beautiful Jekyll Configuration File
+### Settings that affect your entire website
+###########################################################
+
+############################
+# --- Required options --- #
+############################
+
+# Name of website
+title: "Post-OCR Corrections Using Latin Annotations (POCULA)"
+email: pjb311@nyu.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  A project developing machine learning models to correct OCR errors in digitized Latin texts.
+
+# Your name to show in the footer
+author: Patrick J. Burns
+
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+  About: "about"
+  News: "news"
+  Events: "events"
+  Resources: "resources"
+
+################
+# --- Logo --- #
+################
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+# avatar: "/assets/img/placeholder.png"  # TODO: Replace with actual image
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: true
+
+# Specify the path to your favicon
+# Multiple sizes are recommended for different browsers and devices
+favicon: /assets/img/favicon.ico
+
+#####################################
+# --- Footer social media links --- #
+#####################################
+
+# Select the social network links that you want to show in the footer
+social-network-links:
+  email: "pjb311@nyu.edu"
+  github: diyclassics
+
+###########################
+# --- General options --- #
+###########################
+
+# For any extra visual customization, you can include additional CSS files in every page on your site
+site-css:
+  - "/assets/css/custom-styles.css"
+
+#################################################################################
+# --- You don't need to touch anything below here (but you can if you want) --- #
+#################################################################################
+
+# Build settings
+remote_theme: daattali/beautiful-jekyll@6.0.1
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Output options (more information on Jekyll's site)
+timezone: "America/New_York"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
