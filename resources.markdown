@@ -9,11 +9,10 @@ permalink: /resources/
 ### Tools
 
 - [LatinCy](https://huggingface.co/latincy). Pretrained NLP pipelines for Latin developed by Patrick J. Burns. POCULA uses LatinCy for Latin text processing tasks.
-- [Common Corpus](https://huggingface.co/datasets/PleIAs/common_corpus). A large-scale multilingual dataset that includes digitized Latin texts. POCULA draws its source material from Common Corpus.
 
 ### Related Projects
 
-- [Latin BERT](https://github.com/dbamman/latin-bert). A BERT language model trained on Latin texts by David Bamman.
+- [Latin BERT](https://github.com/dbamman/latin-bert). A BERT language model trained on Latin texts by David Bamman and Patrick J. Burns.
 
 ## Select Bibliography
 
