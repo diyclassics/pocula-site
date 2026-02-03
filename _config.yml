@@ -15,7 +15,7 @@ description: >- # this means to ignore newlines
 
 # URL settings for GitHub Pages
 url: "https://diyclassics.github.io"
-baseurl: "/pocula"
+baseurl: "/pocula-site"
 
 # Your name to show in the footer
 author: Patrick J. Burns
