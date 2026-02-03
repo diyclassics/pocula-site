@@ -10,8 +10,12 @@
 # Name of website
 title: "Post-OCR Corrections Using Latin Annotations (POCULA)"
 email: pjb311@nyu.edu
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines
   A project developing machine learning models to correct OCR errors in digitized Latin texts.
+
+# URL settings for GitHub Pages
+url: "https://diyclassics.github.io"
+baseurl: "/pocula"
 
 # Your name to show in the footer
 author: Patrick J. Burns
@@ -49,6 +53,13 @@ favicon: /assets/img/favicon.ico
 social-network-links:
   email: "pjb311@nyu.edu"
   github: diyclassics
+
+######################
+# --- SEO options --- #
+######################
+
+# The keywords to associate with your website, for SEO purposes
+keywords: "latin,OCR,optical character recognition,NLP,machine learning,text correction,digitized texts,classical philology"
 
 ###########################
 # --- General options --- #
