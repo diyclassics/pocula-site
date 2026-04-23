@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-*Post-OCR Corrections Using Latin Annotations* (POCULA) is a text data correction project led by [Patrick J. Burns](https://isaw.nyu.edu/people/staff/patrick-burns) at NYU's [Institute for the Study of the Ancient World Library](https://isaw.nyu.edu/library). The project addresses corruption in digitized Latin texts from large repositories like Common Corpus by developing machine learning models to correct optical character recognition (OCR) errors.
+*Post-OCR Corrections Using Latin Annotations* (POCULA) is a text data correction project led by [Patrick J. Burns](https://isaw.nyu.edu/people/staff/patrick-burns) at NYU's [Institute for the Study of the Ancient World Library](https://isaw.nyu.edu/library). The project addresses corruption in digitized Latin texts from large repositories like Common Corpus by developing machine learning models to correct optical character recognition (OCR) errors. The project also used corrected Latin text as the basis for building pedagogical resources like student readers.
 
 ## Goals
 
@@ -21,6 +21,9 @@ By correcting even 1% of Common Corpus's 34 billion tokens, POCULA could yield a
 
 - Patrick J. Burns, Project Director
 - Patrick Liu, Contributor (Summer 2025)
+- Kai Leigh Harrison, Contributor (Spring 2026)
+- Kevin O'Neill, Contributor (Spring 2026)
+- Mihou Tatsumi, Contributor (Spring 2026)
 
 ## Acknowledgements
 

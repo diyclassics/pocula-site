@@ -29,4 +29,6 @@ exclude: true
 
 POCULA aims to compile 10,000 Latin sentence pairs from scanned Latin texts available online, matching digitized documents to original scans where possible. The project trains interim correction models at 1,000, 2,500, and 5,000 sentence milestones.
 
-The project uses the [LatinCy](https://huggingface.co/latincy) pretrained NLP pipelines developed by Burns to support Latin text processing.
+In addition, the project uses corrected Latin text as the basis for building pedagogical resources like student readers.
+
+The project uses the [LatinCy](https://huggingface.co/latincy) pretrained NLP pipelines developed by Burns to support Latin text processing. 
