@@ -37,3 +37,4 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "bigdecimal", "~> 4.1"
+gem "logger"  # no longer a default gem from Ruby 4.0
